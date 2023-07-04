@@ -197,7 +197,7 @@ display: flex;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office-mob@2.jpg);
+    url(../images/people-office.jpg);
 }
 }
 
@@ -469,11 +469,7 @@ color: var(--link-icons);
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-link:hover,
-.customers-link:focus {
-border-color: #404BBF;
-color: #404BBF;
-}
+
 
 .icon-customers {
 fill: currentColor;
@@ -1155,7 +1151,7 @@ letter-spacing: 0.02em;
 
   .section-one {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-          url(../images/ofiice-tab.jpg);
+          url(../images/people-office.jpg);
   }
 
   @media (-webkit-min-device-pixel-ratio: 2),
@@ -1163,7 +1159,7 @@ letter-spacing: 0.02em;
       .section-one {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                   rgba(46, 47, 66, 0.7)),
-              url(../images/ofiice-tab@2.jpg);
+              url(../images/people-office.jpg);
       }
   }
 
@@ -1338,8 +1334,9 @@ letter-spacing: 0.02em;
 
   .section-one {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-          url(../images/office.jpg);
+          url(../images/people-office.jpg);
       padding: 188px 0;
+      max-width: 1440px;
   }
 
   @media (-webkit-min-device-pixel-ratio: 2),
@@ -1347,7 +1344,7 @@ letter-spacing: 0.02em;
       .section-one {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                   rgba(46, 47, 66, 0.7)),
-              url(../images/office@2.jpg);
+              url(../images/people-office.jpg);
       }
   }
 
